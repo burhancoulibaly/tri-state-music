@@ -1,0 +1,23 @@
+{
+  "name": "tri-state-music",
+  "version": "1.0.0",
+  "description": "Project to create a website to promote local artist and music events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "*",
+    "bootstrap": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burhancoulibaly/tri-state-music.git"
+  },
+  "author": "Menekou B. Coulibaly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burhancoulibaly/tri-state-music/issues"
+  },
+  "homepage": "https://github.com/burhancoulibaly/tri-state-music#readme"
+}

@@ -7,8 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "bootstrap": "*",
     "express": "*",
-    "bootstrap": "*"
+    "jquery": "^3.2.1"
   },
   "repository": {
     "type": "git",

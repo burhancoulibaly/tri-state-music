@@ -6,12 +6,14 @@ var path = require('path');
 home = path.resolve('./frontend/html/home/home.html');
 css = path.resolve('./frontend/css/home');
 js = path.resolve('./frontend/js/home');
-bootstrap = path.resolve('./node_modules/bootstrap');
+bootstrap = path.resolve('./node_modules/bootstrap/dist/css');
+p5 = path.resolve('./node_modules/p5');
 jquery = path.resolve('./node_modules/jquery/dist');
 
 app.use('/css', express.static(css));
 app.use('/js', express.static(js));
 app.use('/bootstrap', express.static(bootstrap));
+app.use('/p5', express.static(p5));
 app.use('/jquery', express.static(jquery));
 
 server.listen(process.env.PORT || 3000);

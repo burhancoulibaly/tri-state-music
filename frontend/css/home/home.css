@@ -160,10 +160,33 @@ body{
 }
 .floating-square{
   border-style:solid;
-  border-color:#3f8bdd;
+  border-color:#23629f;
   position: relative;
   height: 95vh;
   width: 70vw;
   left: .7vw;
   top: 1.5vh
+}
+.div-heading{
+  /*border-style:solid;
+  border-color:#23629f;*/
+  color:#23629f;
+  font-family: agency fb;
+  height:20vh;
+  width:16.5vw;
+  z-index: 2;
+  font-size: 150px;
+  position: relative;
+}
+.div-heading:nth-child(2){
+  top:19vh;
+  left: 8vw;
+}
+.div-heading:nth-child(4){
+  top:28vh;
+  left: 75vw;
+}
+.div-heading:nth-child(6){
+  top:37vh;
+  left: 41vw;
 }

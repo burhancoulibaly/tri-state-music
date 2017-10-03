@@ -1,0 +1,160 @@
+html{
+  /*border-style: solid;
+  border-color: blue;*/
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+body{
+  position: absolute;
+/*  border-style: solid;
+  border-color: purple;*/
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.app-window{
+  background-color:#ebebeb;
+  height: 95vh;
+  width: 70vw;
+  position: relative;
+  top:15vh;
+  left: 1vw;
+}
+
+.app-window2{
+  background-color:#ebebeb;
+  height: 95vh;
+  width: 70vw;
+  position: relative;
+  top:24.0vh;
+  left: 28vw;
+}
+
+.app-window3{
+  background-color:#ebebeb;
+  height: 95vh;
+  width: 70vw;
+  position: relative;
+  top:33.0vh;
+  left: 15vw;
+}
+
+.header{
+  /*border-style: solid;
+  border-color: red;*/
+  width: 100%;
+  height: 20vh;
+  margin:0;
+  background-color: #ebebeb;
+}
+.hello{
+  color: #fff;
+}
+.tsm-text{
+  display:inline-block;
+  position: relative;
+  height:20vh;
+  width:6vw;
+  left:1vw;
+  top:0vh;
+}
+.menzcouli-logo{
+  display:inline-block;
+  position: relative;
+  height:10vh;
+  width:5vw;
+  left:.7vw;
+  top:0vh;
+}
+
+.nav-menu{
+  /*border-style:solid;
+  border-color:blue;*/
+  height:4vh;
+  width: 20vw;
+  position: relative;
+  left:70vw;
+  bottom:12vh;
+}
+.nav-menu ul{
+  list-style-type: none;
+  display:inline-block;
+}
+
+.nav-menu ul li:nth-child(1){
+  right: .5vw;
+  bottom:.5vh;
+  position: relative;
+  display:inline-block;
+}
+.nav-menu ul li:nth-child(2){
+  left: 1.2vw;
+  bottom:.8vh;
+  position: relative;
+  display:inline-block;
+}
+.nav-menu ul li:nth-child(3){
+  left: 3vw;
+  bottom:.5vh;
+  position: relative;
+  display:inline-block;
+}
+.nav-menu ul li:nth-child(4){
+  left: 4.6vw;
+  bottom:.8vh;
+  position: relative;
+  display:inline-block;
+}
+.nav-menu ul li:nth-child(5){
+  left: 6vw;
+  bottom:.5vh;
+  position: relative;
+  display:inline-block;
+}
+.nav-menu ul li{
+  font-family: agency fb;
+  font-size: 25px;
+}
+.wrap{
+  left:71.8vw;
+  bottom:14vh;
+  height:6vh;
+  width:25vw;
+  position: relative;
+}
+.search{
+  position: relative;
+  width:25vw;
+  height:6vh;
+}
+.searchTerm{
+  text-align: center;
+  position:relative;
+  height: 35px;
+  width: 17.6vw;
+  border-top-left-radius:4px;
+  border-bottom-left-radius:4px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  margin: 0;
+  display:inline-block;
+}
+.searchButton{
+  width:2.3vw;
+  height: 35px;
+  border-top-right-radius:4px;
+  border-bottom-right-radius:4px;
+  border-width: 1px;
+  position: relative;
+  right: .6vw;
+  display:inline-block;
+  background-color: white;
+  border-color: gray;
+  border-left-style: hidden;
+}

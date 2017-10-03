@@ -158,3 +158,12 @@ body{
   border-color: gray;
   border-left-style: hidden;
 }
+.floating-square{
+  border-style:solid;
+  border-color:#3f8bdd;
+  position: relative;
+  height: 95vh;
+  width: 70vw;
+  left: .7vw;
+  top: 1.5vh
+}
